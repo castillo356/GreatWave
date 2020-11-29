@@ -1,0 +1,561 @@
+body{
+    background: #89E894;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.navbar {
+  background:#78D5E3;
+}
+.header{
+    position:fixed;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    top:0;
+    width:100%;
+    z-index: 2;
+    }
+
+ .darken-with-text p{
+  margin: 0;
+  font-size: 3vh;
+  text-align: center;
+  font-family:Century Gothic Regular;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+  z-index: 1;
+}
+ .darken-pseudo {
+  position: relative;
+}
+.darken-pseudo:after {
+  content: '';
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.col-lg-4{
+    position:relative;
+}
+.jumbotron-special{
+    background-image: url("aaaaa.jpg");
+    background-size: 100% 100%;
+    width: 400px;
+    height: 460px;
+    text-align:center;
+    position: relative;
+    top: 70px;
+    margin:none;
+}
+.modal-dialog{
+    width: 490px;
+    height: 600px;
+    top: 0px; bottom: 0px;
+    right: 0px; left: 0px;
+
+}
+
+.modal-dialog{
+    padding: 15px;
+}
+
+.input{
+    margin-button: 10px;
+    padding: 10px;
+    width: 50px;
+
+}
+
+#r-b{
+	font-size:12px;
+	height:15px;
+	width:15px;
+}
+
+.modal-title{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 5px;
+
+}
+
+.modal-dialog .text2{
+    font-size: 15px;
+    color: #C0C0C0;
+    padding: 5px;
+}
+
+.modal-dialog .text3{
+    font-size: 15px;
+    color: #C0C0C0;
+}
+
+.modal-dialog .text4{
+    font-size: 15px;
+    color: #C0C0C0;
+}
+
+.modal-dialog .text5{
+    font-size: 10px;
+    color: #C0C0C0;
+     padding: 5px;
+}
+.modal-dialog .btn button{
+    height: 40px;
+    width: 100px;
+     padding: 5px;
+    background-color: #4CAF50;
+    color: #ffff;
+    border-radius:20px;
+}
+
+.modal-dialog .data2{
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:1px;
+}
+
+.modal-dialog .data1{
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:1px;
+}
+
+form .data1 input{
+    width: 210px;
+    height: 30px;
+}
+
+form .data2 input{
+    width: 424px;
+    height: 30px;
+}
+
+.modal-dialog .data3{
+    padding: 5px;
+}
+
+.modal-dialog .data4{
+    padding: 5px;
+    buttom: 75px;
+}
+
+
+@media (min-width: 400px){
+.col-sm-12{
+    text-align:center;
+    padding-bottom:100px;
+}
+body{
+    padding-top:40px;
+    padding-bottom: 40px;
+}
+  .backgroundimage{
+    background-image: url("");
+    background-size:100% 100%;
+    position:relative;
+    padding-top:50px;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+ }
+.container-fluid {
+    background-image:url("Faqbg.jfif");
+    padding-top:5%;
+    margin-top:3px;
+    padding-bottom:15%;
+    background-repeat:no-repeat;
+    width: 100vw;
+    height: 50vh;
+    margin:none;
+    background-size: 100% 100%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+}
+@media (min-width: 500px) {
+.col-md-12{
+    text-align:center;
+    position:relative;
+}
+body{
+
+    padding-top:92px;
+    padding-bottom: 40px;
+}
+  .backgroundimage{
+    background-image: url("");
+    background-size:100% 100%;
+    position:relative;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    margin:none;
+}
+
+
+
+}
+@media (min-width: 500px) {
+.container-fluid {
+    background-image:url("Faqbg.jfif");
+    padding-top:5%;
+    margin-top:3px;
+    padding-bottom:15%;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+}
+@media (min-width: 1200px) {
+    .backgroundimage{
+    background-image: url("Picture1");
+    background-size:100% 100%;
+    position:relative;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    margin:none;
+    bottom: 50px;
+    right: 20px;
+}
+
+}
+.container .form-inline{
+    padding-top:100px;
+}
+.btn-login {
+    padding: 4px 85px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.btn-create {
+    padding:5px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.logo{
+    width:150px;
+    height: 80px;
+}
+.col-lg-8 .text{
+    color:#fff;
+    font-family:Century Gothic Regular;
+    font-size: 28px;
+    text-size-adjust: none;
+    min-width:1000px;
+    height:auto;
+    position:relative;
+    display: block;
+    margin-top:15%;
+    padding-left:120px;
+}
+.col-lg-8{
+ text-align:justify;
+  text-align-last:center;
+
+}
+.container btn {
+    font-size: 1px;
+    border-radius: 10px;
+}
+.col1{
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.carousel-indicators{
+    color:#afd4d7;
+}
+h2 {
+    color:#fff;
+    text-align: center;
+    text-transform:uppercase:
+    font-family: 'Noto Sans' , sans-serif;
+    font-weight: bold;
+    position: relative;
+    margin: 30px 0 60px;
+}
+h2:after{
+    content"";
+    width:140px;
+    position:absolute;
+    margin 0 auto;
+    height 3px;
+    background-color:#afd4d7;
+    left:0;
+    right:0;
+    bottom:-10px;
+    opacity:.8;
+}
+
+ .carousel{
+    margin : 50px auto;
+    padding: 0 70px;
+ }
+ .carousel-item{
+    color:#999;
+    front-size: 14px;
+    text-align:center;
+    overflow: hidden;
+    min-height:290px;
+ }
+
+ .carousel .item .img-box{
+    width:135px;
+    height:135px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+ }
+.carousel-item .img{
+    width:200px;
+    height:7px;
+    display: inline-block;
+ }
+ .carousel-item .img img{
+    width:100%;
+    height:100%;
+    display:block;
+ }
+ .carousel .img-box img{
+    width:100%;
+    height:100%;
+    padding-top:1px;
+    display:block;
+    border-radius:50%;
+    overflow:hidden;
+ }
+.carousel .testimonial{
+    padding : 30px 0 10px;
+}
+.carousel .overview{
+    font-style: italic;
+}
+.carousel .overflow b{
+    text-transform:uppercase;
+    color:#db584e;
+}
+.container h1{
+    margin:20px;
+    text-align:center;
+}
+.jumbotron0{
+    background: #eae1cf;
+    color:#669d88;
+    padding-top:20px;
+    padding-bottom:50px; Comic Sans MS
+}
+.container h1{
+    font-family:Comic Sans MS;
+    color:#669d88;
+    font-weight: bold;
+}
+.jumbotron1{
+    background-image: url("aboutUs/webdevPolaroid.png");
+    background-size:100% 100%;
+    position:relative;
+    left: 190px;
+    padding:10px;
+
+}
+.jumbotron2{
+    background-image: url("aboutUs/testerPolaroid.png");
+    background-size:100% 100%;
+    position:relative;
+     left: 190px;
+   padding:10px;
+}
+
+
+.mb-0 .btn{
+    text-align: left;
+}
+
+#page-container {
+  position: relative;
+  min-height: 10vh;
+  background:#78D5E3;
+}
+
+#content-wrap {
+ box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.4);
+  padding-bottom: 2rem;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 105%;
+    height: 2rem;
+    background:#78D5E3;
+}
+.footer-copyright{
+    margin-top:-10px;
+    background:#78D5E3;
+
+}
+.container1{
+    margin-bottom:100px;
+    padding-bottom:20px;
+    padding:none;
+    background:#ffff;
+}
+.accordion h2{
+    font-family:Century Gothic;
+    padding-top:50px;
+    color:#858484;
+}
+.accordion .card-body {
+    font-family:Century Gothic;
+}
+.accordion .card-header {
+    font-family:Century Gothic;
+    text-color:#858484;
+}
+.accordion .card{
+    border-radius: 10px;
+}
+.card-body .col-md-6{
+    margin-top:10px;
+    text-align:left;
+}
+
+.card1{
+    width: 400px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin 10px 15px;
+    position: relative;
+    bottom: 100px;
+    padding: 5px 10px;
+    background-image: url("Webinar1.jpg");
+    background-size: cover;
+
+}
+
+.card2{
+    width: 400px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin 10px 15px;
+    position: relative;
+    bottom: 100px;
+    left: 20px;
+    padding: 5px 10px;
+    background-image: url("Webinar2.png");
+    background-size: cover;
+
+}
+
+.card3{
+    width: 400px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin 10px 15px;
+    position: relative;
+    bottom: 60px;
+    padding: 5px 10px;
+    background-image: url("Webinar3.jpg");
+    background-size: cover;
+}
+
+.card4{
+    width: 400px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin 10px 15px;
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+    padding: 5px 10px;
+    background-image: url("Webinar4.png");
+    background-size: cover;
+}
+
+.card5{
+    width: 400px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin 10px 15px;
+    position: relative;
+    bottom: 20px;
+    padding: 5px 10px;
+    background-image: url("Webinar5.jpg");
+    background-size: cover;
+}
+
+.card6{
+    width: 400px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin 10px 15px;
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    padding: 5px 10px;
+    background-image: url("Webinar6.png");
+    background-size: cover;
+}
+
+.card1:hover{
+    transform: translateY(-10px);
+}
+.card2:hover{
+    transform: translateY(-10px);
+}
+.card3:hover{
+    transform: translateY(-10px);
+}
+.card4:hover{
+    transform: translateY(-10px);
+}
+.card5:hover{
+    transform: translateY(-10px);
+}
+.card6:hover{
+    transform: translateY(-10px);
+}
+
+h5 {
+    color:#fff;
+    text-align: center;
+    text-transform:uppercase:
+    font-family: 'Noto Sans' , sans-serif;
+    font-weight: bold;
+    position: relative;
+    margin: 30px 0 60px;
+}
+
